@@ -1,0 +1,18 @@
+DockerFile.txt
+FROM ubuntu:latest
+LABEL MAINTAINER "Mr. Docker"
+RUN apt update -y
+RUN apt install nginx -y
+COPY index.html /var/www/html/index.html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]                         
+
+index.html
+<!DOCTYPE html>
+<html>
+<head><title>Docker Experiment 10</title></head>
+<body>
+    <h1>Success!</h1>
+    <p>This web application is running inside an Ubuntu container.</p>
+</body>
+</html>
