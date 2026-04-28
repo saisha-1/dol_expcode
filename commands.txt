@@ -1,0 +1,81 @@
+1.1. sudo
+2. Apt -get
+3. Ls
+4. Cd
+5. Ped
+6. Cp
+7. Mv
+8. Rm
+9. Mkdir
+10. History
+11. Df
+12. Du
+13. Free
+14. Uname -a
+15. Top
+16. Man
+17. Info
+18. Passwd
+19. Whatis
+20. Date
+21. W
+22. Exit
+23. Shutdown
+24. Head
+25. Tail
+26. Echo
+27. Grep
+28. Zip
+29. Unzip
+30. command name -h or command –help
+
+2.●Execution of following Git commands along with screenshots of folder
+contents
+1. git --version
+2. git init
+3. git status
+4. git config
+5. git add
+6. git commit
+7. git log
+
+3. Execution of following Git commands along with screenshots of folder
+contents &amp; corresponding GitHub repository contents
+1. git remote add origin &lt;url&gt;
+2. git remote show origin
+3. git push origin master
+4. git fetch origin master
+5. git merge origin/master
+6. git pull origin master
+7. git clone &lt;url&gt;
+3. On GitHub repository:
+1. New branch creation in own repository
+2. Fork a public repository
+3. Delete repository on github
+4. Git cheat sheet commands:
+1. git branch
+2. git checkout
+3. git rm filename
+4. git remote -v
+
+
+9.Execute following docker commands and take screenshots
+1. Docker version
+2. Docker login
+3. Docker images
+4. Docker pull image
+5. Docker pull image-tag
+6. Docker images help
+7. Docker run commands
+8. Docker ps
+9. Docker start container
+10. Docker pause container
+11. Docker stop container
+12. Docker top container
+13. Docker stats container
+14. Docker rm container
+15. Docker inspect
+16. Docker rmi
+17. Docker commit
+18. Docker push
+19. Docker history image
